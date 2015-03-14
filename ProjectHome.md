@@ -1,0 +1,3 @@
+Gate Maps [(App Store Link)](http://itunes.com/app/GateMaps) was designed with the expectation that you'll usually refer to a terminal map while in-flight, and therefore works in Airplane mode (no network connection needed), on either iPhone or iPod Touch. Also, given many airport sites use Flash for their maps, accessing such content from your iPhone/iPod Touch is currently not possible. PDF is another popular format, but the download time negates a quick lookup when you're rushing to make that connection!
+
+Please use the issues tab to report new enhancement requests/bugs or to comment on previously reported ones.
