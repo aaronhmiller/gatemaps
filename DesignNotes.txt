@@ -1,0 +1,76 @@
+Array of hotspot buttons and array of hotspot images next! done!
+Next up: Make it much easier to return to the overview map done!
+Map out a few more airports
+Next after that: a dictionary (refer to SimpleDrillDown for an example) to track the airports, their hotspots, and images
+Next after that: Airport Maps icon
+
+		self.navigationController.navigationBar.barStyle = UIBarStyleBlackTranslucent;
+and
+		self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
+
+make for some interesting effects, but getting them to appear and disappear more challenging than you think! Also, they tend to hide (yet you can see) part of the map or table when translucent bar already in place (as opposed to changing
+on rotation).
+
+Note that unit tests builds do NOT catch missing files that have been removed until a "clean" is done.
+
+*Boston
+*Chicago
+*Denver
+*Los Angeles <http://www.lawa.org/welcomeLAX.cfm?id=256>
+*New York - Kennedy (JFK)
+*New York - La Guardia
+*San Francisco
+
+version 1.0: 
+version 1.1: added Newark, Washington
+
+version 1.4: added Toronto, Vancouver, Montreal, and Washington, DC - Reagan (DCA)
+version 1.5: added Miami
+version 1.6: switched to plist to store data, added Boston, detail to LAX
+version 1.7: added unit tests (avoid Phoenix fiasco), added London, Paris, Kansas City, added pinch & zoom
+version 1.8: unit tests now cover main images and detail images, added Minneapolis-St. Paul, updated Paris overview, fixed Hong Kong overview
+version 1.9: fixed JFK overview, added Brisbane, Frankfurt, Honolulu, Indianapolis, Memphis, and San Jose
+version 2.0: 
+OS 3.0 recommended (double-tap zoom on detail map feature)
+Return to overview from detail map behavior changed to swipe to avoid annoying return to overview when pinching or zooming.
+Added Seattle & Cincinnati-Northern Kentucky
+Cleaned up Baltimore (BWI)
+
+Lite:
+version 1.4: added Atlanta, pinch & zoom
+1.4.1: fixed JFK overview map
+1.5: 
+OS 3.0 recommended (double-tap zoom on detail map feature)
+Return to overview from detail map behavior changed to swipe to avoid annoying return to overview when pinching or zooming.
+
+International coverage: Canada (Toronto, Vancouver, and Montreal), China (Hong Kong), Japan (Tokyo)
+
+For more airports, refer to world's busiest:
+<http://www.infoplease.com/ipa/A0004547.html>
+
+Top 25 airports <http://www.faa.gov/news/updates/busiest_airports/>
+1	991627	Hartsfield-Jackson Atlanta Int’l. (ATL)
+2	926973	Chicago/O’Hare Int’l. (ORD)
+3	686711	Dallas/Ft. Worth Int’l. (DFW)
+4	680954	Los Angeles International (LAX)
+5	619941	Denver International (DEN)
+6	619287	Las Vegas/Mc Carran Int’l. (LAS)
+7	603641	Houston/G. Bush Intercont’l. (IAH)
+8	539211	Phoenix Sky Harbor Int’l. (PHX)
+9	525943	Charlotte/Douglas Int’l. (CLT)
+10	499683	Philadelphia International (PHL)
+11	467442	Detroit Metro Wayne Co. (DTW)
+12	456835	John F. Kennedy Int’l. (JFK)
+13	453566	Minneapolis-St. Paul Int’l. (MSP)
+14	441908	Newark International (EWR)
+15	420996	Salt Lake City Int’l. (SLC)
+16	419127	Washington Dulles Int’l. (IAD)
+17	401890	Boston/Logan International (BOS)
+18	397280	LaGuardia (LGA)
+19	386367	Miami International (MIA)
+20	379568	San Francisco Int’l. (SFO)
+21	376528	Memphis International (MEM)
+22	367860	Orlando International (MCO)
+23	347046	Seattle Tacoma Int’l. (SEA)
+24	328261	Covington/Cincinnati Int’l. (CVG)
+25	307952	Ft. Lauderdale/Hollywood (FLL)
